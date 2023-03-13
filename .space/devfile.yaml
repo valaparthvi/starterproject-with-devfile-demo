@@ -45,7 +45,7 @@ metadata:
   tags:
   - Go
   version: 1.0.2
-schemaVersion: 2.1.0
+schemaVersion: 2.2.0
 starterProjects:
 - description: A Go project with a simple HTTP server
   git:
@@ -54,3 +54,7 @@ starterProjects:
     remotes:
       origin: https://github.com/devfile-samples/devfile-stack-go.git
   name: go-starter
+attributes:
+  space:
+    editor:
+      type: Idea
