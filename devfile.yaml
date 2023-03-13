@@ -29,7 +29,7 @@ components:
     endpoints:
     - name: http-go
       targetPort: 8080
-    image: registry.access.redhat.com/ubi9/go-toolset:latest
+    image: quay.io/pvala18/go-toolset:latest
     memoryLimit: 1024Mi
     mountSources: true
   name: runtime
